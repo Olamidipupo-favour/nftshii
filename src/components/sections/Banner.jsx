@@ -146,12 +146,12 @@ const Banner = () => {
   return (
     <Section>
         <ImgContainer>
-        <img src={img1} width="500" height="400"  alt="The Weirdos" />
-        <img src={img2} width="500" height="400"  alt="The Weirdos" />
-        <img src={img3} width="500" height="400"  alt="The Weirdos" />
-        <img src={img4} width="500" height="400"  alt="The Weirdos" />
-        <img src={img5} width="500" height="400"  alt="The Weirdos" />
-        <img src={img6} width="500" height="400"  alt="The Weirdos" />
+        <img src={img1} width="500" height="400"  alt="The MobStars" />
+        <img src={img2} width="500" height="400"  alt="The MobStars" />
+        <img src={img3} width="500" height="400"  alt="The MobStars" />
+        <img src={img4} width="500" height="400"  alt="The MobStars" />
+        <img src={img5} width="500" height="400"  alt="The MobStars" />
+        <img src={img6} width="500" height="400"  alt="The MobStars" />
 
         </ImgContainer>
         <Title>Join 
