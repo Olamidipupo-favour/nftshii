@@ -124,10 +124,11 @@ let play = (e) => {
 let pause = (e) => {
   passRef.current.style.animationPlayState = 'paused';
 }
+const notify = (story=" ") => toast(story);
 
 
   return(
-    <ImgContainer   onMouseOver={e => pause(e) }  onMouseOut={e => play(e) } onClick={e=>alert(story)}>
+    <ImgContainer   onMouseOver={e => pause(e) }  onMouseOut={e => play(e) } onClick={e=>notify(story)}>
       <img width={500} height={400}  src={img} alt="The Weirdos" />
       <Details>
         <div>
@@ -142,6 +143,7 @@ let pause = (e) => {
           <h1>{Number(price).toFixed(1)}</h1>
           </Price>
         </div>
+        
       </Details>
     </ImgContainer>
   )
@@ -155,6 +157,7 @@ const Showcase = () => {
 
   return(
     <Section id="showcase">
+    <ToastContainer />
     <Row direction="none" ref={Row1Ref}>
       <NftItem img="https://bdigitals.com.ng/wp-content/uploads/2022/10/Stone.png"  title="Stone" number={852} price={1}  story="Wo" passRef = {Row1Ref} />
       <NftItem img="https://bdigitals.com.ng/wp-content/uploads/2022/10/Theo.png"  title="Theo" number={123} price={1.2}   story= "bruv" passRef = {Row1Ref} />
