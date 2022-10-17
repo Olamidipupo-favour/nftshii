@@ -1,12 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import img1 from '../assets/Nfts/bighead.svg';
-import img2 from '../assets/Nfts/bighead-1.svg';
-import img3 from '../assets/Nfts/bighead-2.svg';
-import img4 from '../assets/Nfts/bighead-3.svg';
-import img5 from '../assets/Nfts/bighead-4.svg';
-import img6 from '../assets/Nfts/bighead-5.svg';
+
 
 const Section = styled.section`
 width: 100vw;
@@ -139,12 +134,12 @@ const Banner = () => {
   return (
     <Section>
         <ImgContainer>
-            <img width={500} height={400}  src={img1} alt="The Weirdos" />
-            <img width={500} height={400}  src={img2} alt="The Weirdos" />
-            <img width={500} height={400}  src={img3} alt="The Weirdos" />
-            <img width={500} height={400}  src={img4} alt="The Weirdos" />
-            <img width={500} height={400}  src={img5} alt="The Weirdos" />
-            <img width={500} height={400}  src={img6} alt="The Weirdos" />
+            <img width={500} height={400}  src="https://bdigitals.com.ng/wp-content/uploads/2022/10/Stone.png" alt="Stone" />
+            <img width={500} height={400}  src="https://bdigitals.com.ng/wp-content/uploads/2022/10/Theo.png" alt="Theo" />
+            <img width={500} height={400}  src="https://bdigitals.com.ng/wp-content/uploads/2022/10/Wolfman.png" alt="Wolfman" />
+            <img width={500} height={400}  src="https://bdigitals.com.ng/wp-content/uploads/2022/10/Dexter.png" alt="Dexter" />
+            <img width={500} height={400}  src="https://bdigitals.com.ng/wp-content/uploads/2022/10/Fierreman.png" alt="Fierreman" />
+            <img width={500} height={400}  src="https://bdigitals.com.ng/wp-content/uploads/2022/10/Rio.png" alt="Rio" />
 
         </ImgContainer>
         <Title>Join   <br /> MobStars </Title>
