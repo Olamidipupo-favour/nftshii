@@ -59,7 +59,7 @@ const Items = styled.ul`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: lightblue; */
+  background-color: lightblue;
 
   @media (max-width: 48em) {
     width: 90%;

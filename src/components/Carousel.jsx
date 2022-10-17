@@ -10,17 +10,6 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation, Autoplay, EffectCards } from "swiper";
 
-import img1 from '../assets/Nfts/bighead.svg';
-import img2 from '../assets/Nfts/bighead-1.svg';
-import img3 from '../assets/Nfts/bighead-2.svg';
-import img4 from '../assets/Nfts/bighead-3.svg';
-import img5 from '../assets/Nfts/bighead-4.svg';
-import img6 from '../assets/Nfts/bighead-5.svg';
-import img7 from '../assets/Nfts/bighead-6.svg';
-import img8 from '../assets/Nfts/bighead-7.svg';
-import img9 from '../assets/Nfts/bighead-8.svg';
-import img10 from '../assets/Nfts/bighead-9.svg';
-
 import Arrow from '../assets/Arrow.svg';
 
 const MemberComponent = ({img, name=" ",position=" "}) => {
@@ -139,6 +128,7 @@ const Carousel = () => {
         }}
         pagination={{
             type:'fraction',
+            color:'blue'
         }}
         scrollbar={{
             draggable:true
@@ -149,16 +139,12 @@ const Carousel = () => {
         grabCursor={true}
         className="mySwiper"
       >
- <SwiperSlide>  <img src={img1} alt="MobStars"  width={500} height={400}/> </SwiperSlide>
-        <SwiperSlide>  <img width={500} height={400}  src={img2} alt="MobStars" />   </SwiperSlide>
-        <SwiperSlide>  <img width={500} height={400}  src={img3} alt="MobStars" />   </SwiperSlide>
-        <SwiperSlide>  <img width={500} height={400}  src={img4} alt="MobStars" />   </SwiperSlide>
-        <SwiperSlide>  <img width={500} height={400}  src={img5} alt="MobStars" />   </SwiperSlide>
-        <SwiperSlide>  <img width={500} height={400}  src={img6} alt="MobStars" />   </SwiperSlide>
-        <SwiperSlide>  <img width={500} height={400}  src={img7} alt="MobStars" />   </SwiperSlide>
-        <SwiperSlide>  <img width={500} height={400}  src={img8} alt="MobStars" />   </SwiperSlide>
-        <SwiperSlide>  <img width={500} height={400}  src={img9} alt="MobStars" />   </SwiperSlide>
-        <SwiperSlide>  <img width={500} height={400}  src={img10} alt="MobStars" />   </SwiperSlide>
+        <SwiperSlide>  <img width={500} height={400}  src="https://bdigitals.com.ng/wp-content/uploads/2022/10/Stone.png" alt="Stone" />   </SwiperSlide>
+        <SwiperSlide>  <img width={500} height={400}  src="https://bdigitals.com.ng/wp-content/uploads/2022/10/Theo.png" alt="Theo" />   </SwiperSlide>
+        <SwiperSlide>  <img width={500} height={400}  src="https://bdigitals.com.ng/wp-content/uploads/2022/10/Wolfman.png" alt="Wolfman" />   </SwiperSlide>
+        <SwiperSlide>  <img width={500} height={400}  src="https://bdigitals.com.ng/wp-content/uploads/2022/10/Dexter.png" alt="Dexter" />   </SwiperSlide>
+        <SwiperSlide>  <img width={500} height={400}  src="https://bdigitals.com.ng/wp-content/uploads/2022/10/Fierreman.png" alt="Fierreman" />   </SwiperSlide>
+        <SwiperSlide>  <img width={500} height={400}  src="https://bdigitals.com.ng/wp-content/uploads/2022/10/Rio.png" alt="Rio" />   </SwiperSlide>
 
       </Swiper>
     </Container>
