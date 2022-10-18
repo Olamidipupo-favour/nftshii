@@ -128,8 +128,8 @@ const notify = (story=" ") => toast(story);
 
 
   return(
-    <ImgContainer   onMouseOver={e => pause(e) }  onMouseOut={e => play(e) } onClick={e=>notify(story)}>
-      <img width={500} height={400}  src={img} alt="The Weirdos" />
+    <ImgContainer   onMouseOver={e => pause(e) }  onMouseOut={e => play(e) }>
+      <img width={500} height={400}  src={img} alt={title} />
       <Details>
         <div>
           <span>{title}</span> <br />
@@ -157,7 +157,6 @@ const Showcase = () => {
 
   return(
     <Section id="showcase">
-    <ToastContainer />
     <Row direction="none" ref={Row1Ref}>
       <NftItem img="https://bdigitals.com.ng/wp-content/uploads/2022/10/Stone.png"  title="Stone" number={852} price={1}  story="Wo" passRef = {Row1Ref} />
       <NftItem img="https://bdigitals.com.ng/wp-content/uploads/2022/10/Theo.png"  title="Theo" number={123} price={1.2}   story= "bruv" passRef = {Row1Ref} />

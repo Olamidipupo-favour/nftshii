@@ -28,6 +28,7 @@ import Footer from "./components/Footer";
 import Showcase from "./components/sections/Showcase";
 import Faq from "./components/sections/Faq";
 import ScrollToTop from "./components/ScrollToTop";
+import Story from "./components/sections/Story"
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <About />
           <Roadmap />
           <Showcase />
+          <Story />
           <Team />
           <Faq />
           <Footer />
