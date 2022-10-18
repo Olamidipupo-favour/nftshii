@@ -154,13 +154,13 @@ const About = () => {
           <Carousel /> </Suspense> </Box>
         <Box> 
         <Title>
-        Welcome To  <br /> MobStars.
+        Welcome To  <br />The MobStars Club.
         </Title>
         <SubText>
-        MobStars is a private collection of NFTs—unique digital collectibles. The Weirdos are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS.
+        A creaking sound came from the left side of the bed. He opened his eyes and clapped his hands, the lights turned on and he looked into the vastness of the room from his bed where he slept; empty, silent, just as he had left it before retiring to bed. He clapped his hands again and the lights went off. Then he thought to himself:
         </SubText>
         <SubTextLight>
-        With more than 200+ hand drawn traits, each NFT is unique and comes with a membership to an exclusive group of successful investors. Join an ambitious ever-growing community with multiple benefits and utilities.
+        I am Soy Damien; the most influential man in Continental city. I have all the hired protection I need to enhance my security system. No one can trod upon me like I were one of those lowly peasants on the streets.
         </SubTextLight>
         <ButtonContainer>
         <ThemeProvider theme={dark}>
