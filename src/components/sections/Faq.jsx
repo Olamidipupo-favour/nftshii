@@ -115,9 +115,9 @@ useLayoutEffect(() => {
 <Accordion ScrollTrigger={ScrollTrigger} title="HOW CAN I USE MY NFT?" >
 You will be able to use your NFT as an avatar in the Metaverse and our future video game. Holding also means that you are part of an exclusive network of investors and entrepreneurs.
   </Accordion>
-  <Accordion ScrollTrigger={ScrollTrigger} title="WHO ARE THE MobStars?
+  <Accordion ScrollTrigger={ScrollTrigger} title="WHO ARE THE MOBSTARS?
 " >
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt consequatur quisquam maxime molestias dolores ipsum, exercitationem vel sint quidem aliquam modi quis impedit corporis unde inventore fugiat provident in.
+I am Soy Damien; the most influential man in Continental city. I have all the hired protection I need to enhance my security system. No one can trod upon me like I were one of those lowly peasants on the streets.
   </Accordion>
   <Accordion ScrollTrigger={ScrollTrigger} title="WHAT IS THE FUSION PROCESS?
 " >
