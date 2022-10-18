@@ -185,7 +185,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} MobStars. All rights reserved.
         </span>
         <span>
-          Made with &#10084; by <a href="http://youtube.com/" target="_blank"  rel="noopener noreferrer">
+          Made with &#10084; by <a href="http://bdigitals.netlify.app/" target="_blank"  rel="noopener noreferrer">
             BDigitals et Instant Llc.
           </a>
         </span>
